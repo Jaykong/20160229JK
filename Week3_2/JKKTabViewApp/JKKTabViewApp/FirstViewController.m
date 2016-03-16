@@ -9,6 +9,7 @@
 
 #import "FirstViewController.h"
 
+#import "ShapeView.h"
 @interface FirstViewController ()
 
 @end
@@ -17,9 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
-    view.backgroundColor = [UIColor redColor];
-    [self.view addSubview:view];
+    
+    ShapeView *rectView = [ShapeView createShapeView:1];
+    [self.view addSubview:rectView];
+    
+    ShapeView *circleView = [ShapeView createShapeView:2];
+    [self.view addSubview:circleView];
 }
 
 - (void)didReceiveMemoryWarning {

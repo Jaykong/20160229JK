@@ -17,7 +17,6 @@
 		A98BCD661C99392500FCC6F1 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD651C99392500FCC6F1 /* ShapeView.m */; };
 		A98BCD691C993A6400FCC6F1 /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD681C993A6400FCC6F1 /* RectView.m */; };
 		A98BCD6C1C993A6E00FCC6F1 /* CirleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD6B1C993A6E00FCC6F1 /* CirleView.m */; };
-		A98BCD6F1C993B6800FCC6F1 /* ViewCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD6E1C993B6800FCC6F1 /* ViewCreator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +49,6 @@
 		A98BCD681C993A6400FCC6F1 /* RectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectView.m; sourceTree = "<group>"; };
 		A98BCD6A1C993A6E00FCC6F1 /* CirleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirleView.h; sourceTree = "<group>"; };
 		A98BCD6B1C993A6E00FCC6F1 /* CirleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirleView.m; sourceTree = "<group>"; };
-		A98BCD6D1C993B6800FCC6F1 /* ViewCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCreator.h; sourceTree = "<group>"; };
-		A98BCD6E1C993B6800FCC6F1 /* ViewCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCreator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,15 +92,13 @@
 			children = (
 				A98BCD3C1C992EDA00FCC6F1 /* AppDelegate.h */,
 				A98BCD3D1C992EDA00FCC6F1 /* AppDelegate.m */,
-				A98BCD611C99377000FCC6F1 /* FirstViewController.h */,
-				A98BCD6D1C993B6800FCC6F1 /* ViewCreator.h */,
-				A98BCD6E1C993B6800FCC6F1 /* ViewCreator.m */,
 				A98BCD641C99392500FCC6F1 /* ShapeView.h */,
 				A98BCD651C99392500FCC6F1 /* ShapeView.m */,
 				A98BCD671C993A6400FCC6F1 /* RectView.h */,
 				A98BCD681C993A6400FCC6F1 /* RectView.m */,
 				A98BCD6A1C993A6E00FCC6F1 /* CirleView.h */,
 				A98BCD6B1C993A6E00FCC6F1 /* CirleView.m */,
+				A98BCD611C99377000FCC6F1 /* FirstViewController.h */,
 				A98BCD621C99377000FCC6F1 /* FirstViewController.m */,
 				A98BCD451C992EDA00FCC6F1 /* Main.storyboard */,
 				A98BCD481C992EDA00FCC6F1 /* Assets.xcassets */,
@@ -232,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A98BCD3E1C992EDA00FCC6F1 /* AppDelegate.m in Sources */,
-				A98BCD6F1C993B6800FCC6F1 /* ViewCreator.m in Sources */,
 				A98BCD6C1C993A6E00FCC6F1 /* CirleView.m in Sources */,
 				A98BCD631C99377000FCC6F1 /* FirstViewController.m in Sources */,
 				A98BCD661C99392500FCC6F1 /* ShapeView.m in Sources */,

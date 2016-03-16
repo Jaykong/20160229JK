@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ShapeView : UIView
-
++(ShapeView *)createShapeView:(int)type;
 @end
