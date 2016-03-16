@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A98AC02A1C967B5F00AB9AF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A98AC0291C967B5F00AB9AF5 /* main.m */; };
+		A98AC02D1C967B5F00AB9AF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A98AC02C1C967B5F00AB9AF5 /* AppDelegate.m */; };
+		A98AC0301C967B5F00AB9AF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98AC02F1C967B5F00AB9AF5 /* ViewController.m */; };
+		A98AC0331C967B5F00AB9AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98AC0311C967B5F00AB9AF5 /* Main.storyboard */; };
+		A98AC0351C967B5F00AB9AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98AC0341C967B5F00AB9AF5 /* Assets.xcassets */; };
+		A98AC0381C967B5F00AB9AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98AC0361C967B5F00AB9AF5 /* LaunchScreen.storyboard */; };
+		A98AC0431C967B5F00AB9AF5 /* JKKViewLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A98AC0421C967B5F00AB9AF5 /* JKKViewLessonTests.m */; };
+		A98AC04E1C967B5F00AB9AF5 /* JKKViewLessonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A98AC04D1C967B5F00AB9AF5 /* JKKViewLessonUITests.m */; };
+		A98BCCA51C9684EC00FCC6F1 /* JKView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCCA41C9684EC00FCC6F1 /* JKView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A98AC03F1C967B5F00AB9AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98AC01D1C967B5F00AB9AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98AC0241C967B5F00AB9AF5;
+			remoteInfo = JKKViewLesson;
+		};
+		A98AC04A1C967B5F00AB9AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98AC01D1C967B5F00AB9AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98AC0241C967B5F00AB9AF5;
+			remoteInfo = JKKViewLesson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A98AC0251C967B5F00AB9AF5 /* JKKViewLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKKViewLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98AC0291C967B5F00AB9AF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A98AC02B1C967B5F00AB9AF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A98AC02C1C967B5F00AB9AF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A98AC02E1C967B5F00AB9AF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A98AC02F1C967B5F00AB9AF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A98AC0321C967B5F00AB9AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A98AC0341C967B5F00AB9AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A98AC0371C967B5F00AB9AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A98AC0391C967B5F00AB9AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98AC03E1C967B5F00AB9AF5 /* JKKViewLessonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKKViewLessonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98AC0421C967B5F00AB9AF5 /* JKKViewLessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKKViewLessonTests.m; sourceTree = "<group>"; };
+		A98AC0441C967B5F00AB9AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98AC0491C967B5F00AB9AF5 /* JKKViewLessonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKKViewLessonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98AC04D1C967B5F00AB9AF5 /* JKKViewLessonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKKViewLessonUITests.m; sourceTree = "<group>"; };
+		A98AC04F1C967B5F00AB9AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98BCCA31C9684EC00FCC6F1 /* JKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKView.h; sourceTree = "<group>"; };
+		A98BCCA41C9684EC00FCC6F1 /* JKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98AC0221C967B5F00AB9AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98AC03B1C967B5F00AB9AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98AC0461C967B5F00AB9AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98AC01C1C967B5F00AB9AF5 = {
+			isa = PBXGroup;
+			children = (
+				A98AC0271C967B5F00AB9AF5 /* JKKViewLesson */,
+				A98AC0411C967B5F00AB9AF5 /* JKKViewLessonTests */,
+				A98AC04C1C967B5F00AB9AF5 /* JKKViewLessonUITests */,
+				A98AC0261C967B5F00AB9AF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98AC0261C967B5F00AB9AF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98AC0251C967B5F00AB9AF5 /* JKKViewLesson.app */,
+				A98AC03E1C967B5F00AB9AF5 /* JKKViewLessonTests.xctest */,
+				A98AC0491C967B5F00AB9AF5 /* JKKViewLessonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98AC0271C967B5F00AB9AF5 /* JKKViewLesson */ = {
+			isa = PBXGroup;
+			children = (
+				A98AC02B1C967B5F00AB9AF5 /* AppDelegate.h */,
+				A98AC02C1C967B5F00AB9AF5 /* AppDelegate.m */,
+				A98AC02E1C967B5F00AB9AF5 /* ViewController.h */,
+				A98AC02F1C967B5F00AB9AF5 /* ViewController.m */,
+				A98BCCA31C9684EC00FCC6F1 /* JKView.h */,
+				A98BCCA41C9684EC00FCC6F1 /* JKView.m */,
+				A98AC0311C967B5F00AB9AF5 /* Main.storyboard */,
+				A98AC0341C967B5F00AB9AF5 /* Assets.xcassets */,
+				A98AC0361C967B5F00AB9AF5 /* LaunchScreen.storyboard */,
+				A98AC0391C967B5F00AB9AF5 /* Info.plist */,
+				A98AC0281C967B5F00AB9AF5 /* Supporting Files */,
+			);
+			path = JKKViewLesson;
+			sourceTree = "<group>";
+		};
+		A98AC0281C967B5F00AB9AF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98AC0291C967B5F00AB9AF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A98AC0411C967B5F00AB9AF5 /* JKKViewLessonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A98AC0421C967B5F00AB9AF5 /* JKKViewLessonTests.m */,
+				A98AC0441C967B5F00AB9AF5 /* Info.plist */,
+			);
+			path = JKKViewLessonTests;
+			sourceTree = "<group>";
+		};
+		A98AC04C1C967B5F00AB9AF5 /* JKKViewLessonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A98AC04D1C967B5F00AB9AF5 /* JKKViewLessonUITests.m */,
+				A98AC04F1C967B5F00AB9AF5 /* Info.plist */,
+			);
+			path = JKKViewLessonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98AC0241C967B5F00AB9AF5 /* JKKViewLesson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98AC0521C967B5F00AB9AF5 /* Build configuration list for PBXNativeTarget "JKKViewLesson" */;
+			buildPhases = (
+				A98AC0211C967B5F00AB9AF5 /* Sources */,
+				A98AC0221C967B5F00AB9AF5 /* Frameworks */,
+				A98AC0231C967B5F00AB9AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKKViewLesson;
+			productName = JKKViewLesson;
+			productReference = A98AC0251C967B5F00AB9AF5 /* JKKViewLesson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A98AC03D1C967B5F00AB9AF5 /* JKKViewLessonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98AC0551C967B5F00AB9AF5 /* Build configuration list for PBXNativeTarget "JKKViewLessonTests" */;
+			buildPhases = (
+				A98AC03A1C967B5F00AB9AF5 /* Sources */,
+				A98AC03B1C967B5F00AB9AF5 /* Frameworks */,
+				A98AC03C1C967B5F00AB9AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98AC0401C967B5F00AB9AF5 /* PBXTargetDependency */,
+			);
+			name = JKKViewLessonTests;
+			productName = JKKViewLessonTests;
+			productReference = A98AC03E1C967B5F00AB9AF5 /* JKKViewLessonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A98AC0481C967B5F00AB9AF5 /* JKKViewLessonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98AC0581C967B5F00AB9AF5 /* Build configuration list for PBXNativeTarget "JKKViewLessonUITests" */;
+			buildPhases = (
+				A98AC0451C967B5F00AB9AF5 /* Sources */,
+				A98AC0461C967B5F00AB9AF5 /* Frameworks */,
+				A98AC0471C967B5F00AB9AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98AC04B1C967B5F00AB9AF5 /* PBXTargetDependency */,
+			);
+			name = JKKViewLessonUITests;
+			productName = JKKViewLessonUITests;
+			productReference = A98AC0491C967B5F00AB9AF5 /* JKKViewLessonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98AC01D1C967B5F00AB9AF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					A98AC0241C967B5F00AB9AF5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A98AC03D1C967B5F00AB9AF5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A98AC0241C967B5F00AB9AF5;
+					};
+					A98AC0481C967B5F00AB9AF5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A98AC0241C967B5F00AB9AF5;
+					};
+				};
+			};
+			buildConfigurationList = A98AC0201C967B5F00AB9AF5 /* Build configuration list for PBXProject "JKKViewLesson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98AC01C1C967B5F00AB9AF5;
+			productRefGroup = A98AC0261C967B5F00AB9AF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98AC0241C967B5F00AB9AF5 /* JKKViewLesson */,
+				A98AC03D1C967B5F00AB9AF5 /* JKKViewLessonTests */,
+				A98AC0481C967B5F00AB9AF5 /* JKKViewLessonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98AC0231C967B5F00AB9AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98AC0381C967B5F00AB9AF5 /* LaunchScreen.storyboard in Resources */,
+				A98AC0351C967B5F00AB9AF5 /* Assets.xcassets in Resources */,
+				A98AC0331C967B5F00AB9AF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98AC03C1C967B5F00AB9AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98AC0471C967B5F00AB9AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98AC0211C967B5F00AB9AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98AC0301C967B5F00AB9AF5 /* ViewController.m in Sources */,
+				A98AC02D1C967B5F00AB9AF5 /* AppDelegate.m in Sources */,
+				A98AC02A1C967B5F00AB9AF5 /* main.m in Sources */,
+				A98BCCA51C9684EC00FCC6F1 /* JKView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98AC03A1C967B5F00AB9AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98AC0431C967B5F00AB9AF5 /* JKKViewLessonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98AC0451C967B5F00AB9AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98AC04E1C967B5F00AB9AF5 /* JKKViewLessonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A98AC0401C967B5F00AB9AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98AC0241C967B5F00AB9AF5 /* JKKViewLesson */;
+			targetProxy = A98AC03F1C967B5F00AB9AF5 /* PBXContainerItemProxy */;
+		};
+		A98AC04B1C967B5F00AB9AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98AC0241C967B5F00AB9AF5 /* JKKViewLesson */;
+			targetProxy = A98AC04A1C967B5F00AB9AF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A98AC0311C967B5F00AB9AF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98AC0321C967B5F00AB9AF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A98AC0361C967B5F00AB9AF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98AC0371C967B5F00AB9AF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98AC0501C967B5F00AB9AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A98AC0511C967B5F00AB9AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98AC0531C967B5F00AB9AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKKViewLesson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKKViewLesson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A98AC0541C967B5F00AB9AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKKViewLesson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKKViewLesson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A98AC0561C967B5F00AB9AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKKViewLessonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKKViewLessonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKKViewLesson.app/JKKViewLesson";
+			};
+			name = Debug;
+		};
+		A98AC0571C967B5F00AB9AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKKViewLessonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKKViewLessonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKKViewLesson.app/JKKViewLesson";
+			};
+			name = Release;
+		};
+		A98AC0591C967B5F00AB9AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKKViewLessonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKKViewLessonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKKViewLesson;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A98AC05A1C967B5F00AB9AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKKViewLessonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKKViewLessonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKKViewLesson;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98AC0201C967B5F00AB9AF5 /* Build configuration list for PBXProject "JKKViewLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98AC0501C967B5F00AB9AF5 /* Debug */,
+				A98AC0511C967B5F00AB9AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98AC0521C967B5F00AB9AF5 /* Build configuration list for PBXNativeTarget "JKKViewLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98AC0531C967B5F00AB9AF5 /* Debug */,
+				A98AC0541C967B5F00AB9AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98AC0551C967B5F00AB9AF5 /* Build configuration list for PBXNativeTarget "JKKViewLessonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98AC0561C967B5F00AB9AF5 /* Debug */,
+				A98AC0571C967B5F00AB9AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98AC0581C967B5F00AB9AF5 /* Build configuration list for PBXNativeTarget "JKKViewLessonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98AC0591C967B5F00AB9AF5 /* Debug */,
+				A98AC05A1C967B5F00AB9AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98AC01D1C967B5F00AB9AF5 /* Project object */;
+}
