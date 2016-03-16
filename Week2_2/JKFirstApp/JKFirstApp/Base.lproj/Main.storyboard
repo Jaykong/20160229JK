@@ -14,18 +14,38 @@
                         <viewControllerLayoutGuide type="bottom" id="nXv-wG-eVh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hhP-Wf-Cg5">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3p3-58-ao2">
                                 <rect key="frame" x="279" y="20" width="42" height="21"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3p3-58-ao2">
+                                <rect key="frame" x="20" y="20" width="374" height="45"/>
+>>>>>>> 8e4cca16c2d8a7967c173e26f06e573a175c225d
                                 <color key="backgroundColor" red="0.59804482979999996" green="0.03091626774" blue="0.040079871359999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqc-Zv-dlG">
                                 <rect key="frame" x="284" y="74" width="32" height="30"/>
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGG-tx-qxT">
+                                <rect key="frame" x="20" y="625" width="374" height="39"/>
+                                <color key="backgroundColor" red="0.59804482979999996" green="0.03091626774" blue="0.040079871359999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqc-Zv-dlG">
+                                <rect key="frame" x="20" y="98" width="374" height="39"/>
+>>>>>>> 8e4cca16c2d8a7967c173e26f06e573a175c225d
                                 <color key="backgroundColor" red="0.069754453179999995" green="0.43426877479999998" blue="0.90922900880000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -34,8 +54,13 @@
                                     <action selector="nextQuestion:" destination="Eoi-3q-UaP" eventType="touchUpInside" id="p2z-AC-dSi"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuw-fj-mMu">
                                 <rect key="frame" x="254" y="275" width="93" height="30"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuw-fj-mMu">
+                                <rect key="frame" x="20" y="540" width="374" height="40"/>
+>>>>>>> 8e4cca16c2d8a7967c173e26f06e573a175c225d
                                 <color key="backgroundColor" red="0.069754453179999995" green="0.43426877479999998" blue="0.90922900880000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Show Answer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -44,6 +69,7 @@
                                     <action selector="showAnswer:" destination="Eoi-3q-UaP" eventType="touchUpInside" id="EF1-rz-fxP"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGG-tx-qxT">
                                 <rect key="frame" x="279" y="505" width="42" height="21"/>
                                 <color key="backgroundColor" red="0.59804482979999996" green="0.03091626774" blue="0.040079871359999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -64,6 +90,12 @@
                             <constraint firstItem="3p3-58-ao2" firstAttribute="top" secondItem="SoU-4e-oV9" secondAttribute="bottom" id="i1S-BM-KVc"/>
                         </constraints>
                     </view>
+=======
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+>>>>>>> 8e4cca16c2d8a7967c173e26f06e573a175c225d
                     <connections>
                         <outlet property="answerLbl" destination="CGG-tx-qxT" id="b3c-us-JvO"/>
                         <outlet property="questionLbl" destination="3p3-58-ao2" id="fPK-ox-tfM"/>
@@ -71,7 +103,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XCc-6L-W5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="-266" y="-435"/>
+=======
+            <point key="canvasLocation" x="-260" y="-42"/>
+>>>>>>> 8e4cca16c2d8a7967c173e26f06e573a175c225d
         </scene>
     </scenes>
 </document>

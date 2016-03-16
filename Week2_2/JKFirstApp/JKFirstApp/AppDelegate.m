@@ -18,8 +18,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> 8e4cca16c2d8a7967c173e26f06e573a175c225d
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
