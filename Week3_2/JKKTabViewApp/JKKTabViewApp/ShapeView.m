@@ -1,14 +1,14 @@
 //
-//  Rect1View.m
+//  RectView.m
 //  JKKTabViewApp
 //
 //  Created by trainer on 3/16/16.
 //  Copyright © 2016 trainer. All rights reserved.
 //
 
-#import "Rect1View.h"
+#import "RectView.h"
 
-@implementation Rect1View
+@implementation ShapeView
 
 /*
 // Only override drawRect: if you perform custom drawing.

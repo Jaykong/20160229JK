@@ -1,5 +1,5 @@
 //
-//  Rect1View.h
+//  Rect2View.h
 //  JKKTabViewApp
 //
 //  Created by trainer on 3/16/16.
@@ -8,6 +8,6 @@
 
 #import "RectView.h"
 
-@interface Rect1View : RectView
+@interface CirleView : RectView
 
 @end

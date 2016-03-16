@@ -6,16 +6,19 @@
 //  Copyright © 2016 trainer. All rights reserved.
 //
 
-#import "Rect2View.h"
+#import "CirleView.h"
 
-@implementation Rect2View
+@implementation CirleView
 
-/*
+
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
+    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:rect];
+    [[UIColor greenColor] setFill];
+    [path fill];
 }
-*/
+
 
 @end

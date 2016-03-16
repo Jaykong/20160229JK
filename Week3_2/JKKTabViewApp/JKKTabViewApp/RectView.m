@@ -1,5 +1,5 @@
 //
-//  RectView.m
+//  Rect1View.m
 //  JKKTabViewApp
 //
 //  Created by trainer on 3/16/16.

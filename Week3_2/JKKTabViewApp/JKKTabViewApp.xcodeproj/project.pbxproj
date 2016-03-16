@@ -14,9 +14,9 @@
 		A98BCD4C1C992EDA00FCC6F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98BCD4A1C992EDA00FCC6F1 /* LaunchScreen.storyboard */; };
 		A98BCD571C992EDB00FCC6F1 /* JKKTabViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD561C992EDB00FCC6F1 /* JKKTabViewAppTests.m */; };
 		A98BCD631C99377000FCC6F1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD621C99377000FCC6F1 /* FirstViewController.m */; };
-		A98BCD661C99392500FCC6F1 /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD651C99392500FCC6F1 /* RectView.m */; };
-		A98BCD691C993A6400FCC6F1 /* Rect1View.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD681C993A6400FCC6F1 /* Rect1View.m */; };
-		A98BCD6C1C993A6E00FCC6F1 /* Rect2View.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD6B1C993A6E00FCC6F1 /* Rect2View.m */; };
+		A98BCD661C99392500FCC6F1 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD651C99392500FCC6F1 /* ShapeView.m */; };
+		A98BCD691C993A6400FCC6F1 /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD681C993A6400FCC6F1 /* RectView.m */; };
+		A98BCD6C1C993A6E00FCC6F1 /* CirleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD6B1C993A6E00FCC6F1 /* CirleView.m */; };
 		A98BCD6F1C993B6800FCC6F1 /* ViewCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BCD6E1C993B6800FCC6F1 /* ViewCreator.m */; };
 /* End PBXBuildFile section */
 
@@ -44,12 +44,12 @@
 		A98BCD581C992EDB00FCC6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A98BCD611C99377000FCC6F1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		A98BCD621C99377000FCC6F1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		A98BCD641C99392500FCC6F1 /* RectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectView.h; sourceTree = "<group>"; };
-		A98BCD651C99392500FCC6F1 /* RectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectView.m; sourceTree = "<group>"; };
-		A98BCD671C993A6400FCC6F1 /* Rect1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect1View.h; sourceTree = "<group>"; };
-		A98BCD681C993A6400FCC6F1 /* Rect1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rect1View.m; sourceTree = "<group>"; };
-		A98BCD6A1C993A6E00FCC6F1 /* Rect2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect2View.h; sourceTree = "<group>"; };
-		A98BCD6B1C993A6E00FCC6F1 /* Rect2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rect2View.m; sourceTree = "<group>"; };
+		A98BCD641C99392500FCC6F1 /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		A98BCD651C99392500FCC6F1 /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+		A98BCD671C993A6400FCC6F1 /* RectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectView.h; sourceTree = "<group>"; };
+		A98BCD681C993A6400FCC6F1 /* RectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectView.m; sourceTree = "<group>"; };
+		A98BCD6A1C993A6E00FCC6F1 /* CirleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirleView.h; sourceTree = "<group>"; };
+		A98BCD6B1C993A6E00FCC6F1 /* CirleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirleView.m; sourceTree = "<group>"; };
 		A98BCD6D1C993B6800FCC6F1 /* ViewCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCreator.h; sourceTree = "<group>"; };
 		A98BCD6E1C993B6800FCC6F1 /* ViewCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCreator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,12 +98,12 @@
 				A98BCD611C99377000FCC6F1 /* FirstViewController.h */,
 				A98BCD6D1C993B6800FCC6F1 /* ViewCreator.h */,
 				A98BCD6E1C993B6800FCC6F1 /* ViewCreator.m */,
-				A98BCD641C99392500FCC6F1 /* RectView.h */,
-				A98BCD651C99392500FCC6F1 /* RectView.m */,
-				A98BCD671C993A6400FCC6F1 /* Rect1View.h */,
-				A98BCD681C993A6400FCC6F1 /* Rect1View.m */,
-				A98BCD6A1C993A6E00FCC6F1 /* Rect2View.h */,
-				A98BCD6B1C993A6E00FCC6F1 /* Rect2View.m */,
+				A98BCD641C99392500FCC6F1 /* ShapeView.h */,
+				A98BCD651C99392500FCC6F1 /* ShapeView.m */,
+				A98BCD671C993A6400FCC6F1 /* RectView.h */,
+				A98BCD681C993A6400FCC6F1 /* RectView.m */,
+				A98BCD6A1C993A6E00FCC6F1 /* CirleView.h */,
+				A98BCD6B1C993A6E00FCC6F1 /* CirleView.m */,
 				A98BCD621C99377000FCC6F1 /* FirstViewController.m */,
 				A98BCD451C992EDA00FCC6F1 /* Main.storyboard */,
 				A98BCD481C992EDA00FCC6F1 /* Assets.xcassets */,
@@ -233,10 +233,10 @@
 			files = (
 				A98BCD3E1C992EDA00FCC6F1 /* AppDelegate.m in Sources */,
 				A98BCD6F1C993B6800FCC6F1 /* ViewCreator.m in Sources */,
-				A98BCD6C1C993A6E00FCC6F1 /* Rect2View.m in Sources */,
+				A98BCD6C1C993A6E00FCC6F1 /* CirleView.m in Sources */,
 				A98BCD631C99377000FCC6F1 /* FirstViewController.m in Sources */,
-				A98BCD661C99392500FCC6F1 /* RectView.m in Sources */,
-				A98BCD691C993A6400FCC6F1 /* Rect1View.m in Sources */,
+				A98BCD661C99392500FCC6F1 /* ShapeView.m in Sources */,
+				A98BCD691C993A6400FCC6F1 /* RectView.m in Sources */,
 				A98BCD3B1C992EDA00FCC6F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

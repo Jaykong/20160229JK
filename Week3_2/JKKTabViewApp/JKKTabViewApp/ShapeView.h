@@ -1,13 +1,13 @@
 //
-//  Rect2View.h
+//  RectView.h
 //  JKKTabViewApp
 //
 //  Created by trainer on 3/16/16.
 //  Copyright © 2016 trainer. All rights reserved.
 //
 
-#import "RectView.h"
+#import <UIKit/UIKit.h>
 
-@interface Rect2View : RectView
+@interface ShapeView : UIView
 
 @end
