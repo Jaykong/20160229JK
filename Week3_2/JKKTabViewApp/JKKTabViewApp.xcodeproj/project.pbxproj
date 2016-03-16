@@ -49,6 +49,7 @@
 		A98BCD681C993A6400FCC6F1 /* RectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectView.m; sourceTree = "<group>"; };
 		A98BCD6A1C993A6E00FCC6F1 /* CirleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirleView.h; sourceTree = "<group>"; };
 		A98BCD6B1C993A6E00FCC6F1 /* CirleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirleView.m; sourceTree = "<group>"; };
+		A98BCD701C994DBF00FCC6F1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 		A98BCD2D1C992EDA00FCC6F1 = {
 			isa = PBXGroup;
 			children = (
+				A98BCD701C994DBF00FCC6F1 /* Header.h */,
 				A98BCD381C992EDA00FCC6F1 /* JKKTabViewApp */,
 				A98BCD551C992EDB00FCC6F1 /* JKKTabViewAppTests */,
 				A98BCD371C992EDA00FCC6F1 /* Products */,
