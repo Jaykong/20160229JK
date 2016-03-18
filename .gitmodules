@@ -1,0 +1,6 @@
+[submodule "libs/JKKCFunction"]
+	path = libs/JKKCFunction
+	url = /Users/trainer/desktop/repos/JKKCFunction.git
+[submodule "libs/JKKScrollView"]
+	path = libs/JKKScrollView
+	url = /Users/trainer/desktop/repos/JKKScrollView.git
