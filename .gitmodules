@@ -4,3 +4,6 @@
 [submodule "libs/JKKScrollView"]
 	path = libs/JKKScrollView
 	url = /Users/trainer/desktop/repos/JKKScrollView.git
+[submodule "libs/20160229JK_JKKCFunction"]
+	path = libs/20160229JK_JKKCFunction
+	url = https://github.com/Jaykong/20160229JK_JKKCFunction.git
