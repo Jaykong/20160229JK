@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94944FD1CA8FC1800CDA6FB /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A94944FC1CA8FC1800CDA6FB /* LabelCell.m */; };
+		A9F530A81CA8F21D009D70B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F530A71CA8F21D009D70B2 /* main.m */; };
+		A9F530AB1CA8F21D009D70B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F530AA1CA8F21D009D70B2 /* AppDelegate.m */; };
+		A9F530B11CA8F21D009D70B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F530AF1CA8F21D009D70B2 /* Main.storyboard */; };
+		A9F530B31CA8F21D009D70B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F530B21CA8F21D009D70B2 /* Assets.xcassets */; };
+		A9F530B61CA8F21D009D70B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F530B41CA8F21D009D70B2 /* LaunchScreen.storyboard */; };
+		A9F530C11CA8F21D009D70B2 /* JKTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F530C01CA8F21D009D70B2 /* JKTableViewControllerTests.m */; };
+		A9F530CD1CA8F252009D70B2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F530CC1CA8F252009D70B2 /* TableViewController.m */; };
+		A9F530D01CA8F8AD009D70B2 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F530CF1CA8F8AD009D70B2 /* TableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9F530BD1CA8F21D009D70B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F5309B1CA8F21D009D70B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F530A21CA8F21D009D70B2;
+			remoteInfo = JKTableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A94944FB1CA8FC1800CDA6FB /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		A94944FC1CA8FC1800CDA6FB /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		A9F530A31CA8F21D009D70B2 /* JKTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F530A71CA8F21D009D70B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9F530A91CA8F21D009D70B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9F530AA1CA8F21D009D70B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9F530B01CA8F21D009D70B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9F530B21CA8F21D009D70B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9F530B51CA8F21D009D70B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9F530B71CA8F21D009D70B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F530BC1CA8F21D009D70B2 /* JKTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F530C01CA8F21D009D70B2 /* JKTableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTableViewControllerTests.m; sourceTree = "<group>"; };
+		A9F530C21CA8F21D009D70B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F530CB1CA8F252009D70B2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A9F530CC1CA8F252009D70B2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A9F530CE1CA8F8AD009D70B2 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		A9F530CF1CA8F8AD009D70B2 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F530A01CA8F21D009D70B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F530B91CA8F21D009D70B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9F5309A1CA8F21D009D70B2 = {
+			isa = PBXGroup;
+			children = (
+				A9F530A51CA8F21D009D70B2 /* JKTableViewController */,
+				A9F530BF1CA8F21D009D70B2 /* JKTableViewControllerTests */,
+				A9F530A41CA8F21D009D70B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F530A41CA8F21D009D70B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F530A31CA8F21D009D70B2 /* JKTableViewController.app */,
+				A9F530BC1CA8F21D009D70B2 /* JKTableViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F530A51CA8F21D009D70B2 /* JKTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A9F530A91CA8F21D009D70B2 /* AppDelegate.h */,
+				A9F530AA1CA8F21D009D70B2 /* AppDelegate.m */,
+				A9F530CE1CA8F8AD009D70B2 /* TableViewCell.h */,
+				A9F530CF1CA8F8AD009D70B2 /* TableViewCell.m */,
+				A94944FB1CA8FC1800CDA6FB /* LabelCell.h */,
+				A94944FC1CA8FC1800CDA6FB /* LabelCell.m */,
+				A9F530CB1CA8F252009D70B2 /* TableViewController.h */,
+				A9F530CC1CA8F252009D70B2 /* TableViewController.m */,
+				A9F530AF1CA8F21D009D70B2 /* Main.storyboard */,
+				A9F530B21CA8F21D009D70B2 /* Assets.xcassets */,
+				A9F530B41CA8F21D009D70B2 /* LaunchScreen.storyboard */,
+				A9F530B71CA8F21D009D70B2 /* Info.plist */,
+				A9F530A61CA8F21D009D70B2 /* Supporting Files */,
+			);
+			path = JKTableViewController;
+			sourceTree = "<group>";
+		};
+		A9F530A61CA8F21D009D70B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F530A71CA8F21D009D70B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9F530BF1CA8F21D009D70B2 /* JKTableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F530C01CA8F21D009D70B2 /* JKTableViewControllerTests.m */,
+				A9F530C21CA8F21D009D70B2 /* Info.plist */,
+			);
+			path = JKTableViewControllerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F530A21CA8F21D009D70B2 /* JKTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F530C51CA8F21D009D70B2 /* Build configuration list for PBXNativeTarget "JKTableViewController" */;
+			buildPhases = (
+				A9F5309F1CA8F21D009D70B2 /* Sources */,
+				A9F530A01CA8F21D009D70B2 /* Frameworks */,
+				A9F530A11CA8F21D009D70B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKTableViewController;
+			productName = JKTableViewController;
+			productReference = A9F530A31CA8F21D009D70B2 /* JKTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9F530BB1CA8F21D009D70B2 /* JKTableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F530C81CA8F21D009D70B2 /* Build configuration list for PBXNativeTarget "JKTableViewControllerTests" */;
+			buildPhases = (
+				A9F530B81CA8F21D009D70B2 /* Sources */,
+				A9F530B91CA8F21D009D70B2 /* Frameworks */,
+				A9F530BA1CA8F21D009D70B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F530BE1CA8F21D009D70B2 /* PBXTargetDependency */,
+			);
+			name = JKTableViewControllerTests;
+			productName = JKTableViewControllerTests;
+			productReference = A9F530BC1CA8F21D009D70B2 /* JKTableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F5309B1CA8F21D009D70B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					A9F530A21CA8F21D009D70B2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A9F530BB1CA8F21D009D70B2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A9F530A21CA8F21D009D70B2;
+					};
+				};
+			};
+			buildConfigurationList = A9F5309E1CA8F21D009D70B2 /* Build configuration list for PBXProject "JKTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9F5309A1CA8F21D009D70B2;
+			productRefGroup = A9F530A41CA8F21D009D70B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F530A21CA8F21D009D70B2 /* JKTableViewController */,
+				A9F530BB1CA8F21D009D70B2 /* JKTableViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F530A11CA8F21D009D70B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F530B61CA8F21D009D70B2 /* LaunchScreen.storyboard in Resources */,
+				A9F530B31CA8F21D009D70B2 /* Assets.xcassets in Resources */,
+				A9F530B11CA8F21D009D70B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F530BA1CA8F21D009D70B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F5309F1CA8F21D009D70B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F530AB1CA8F21D009D70B2 /* AppDelegate.m in Sources */,
+				A9F530D01CA8F8AD009D70B2 /* TableViewCell.m in Sources */,
+				A9F530A81CA8F21D009D70B2 /* main.m in Sources */,
+				A9F530CD1CA8F252009D70B2 /* TableViewController.m in Sources */,
+				A94944FD1CA8FC1800CDA6FB /* LabelCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F530B81CA8F21D009D70B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F530C11CA8F21D009D70B2 /* JKTableViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9F530BE1CA8F21D009D70B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F530A21CA8F21D009D70B2 /* JKTableViewController */;
+			targetProxy = A9F530BD1CA8F21D009D70B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9F530AF1CA8F21D009D70B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F530B01CA8F21D009D70B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9F530B41CA8F21D009D70B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F530B51CA8F21D009D70B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F530C31CA8F21D009D70B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F530C41CA8F21D009D70B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F530C61CA8F21D009D70B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9F530C71CA8F21D009D70B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9F530C91CA8F21D009D70B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKTableViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKTableViewController.app/JKTableViewController";
+			};
+			name = Debug;
+		};
+		A9F530CA1CA8F21D009D70B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.jk.JKTableViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKTableViewController.app/JKTableViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F5309E1CA8F21D009D70B2 /* Build configuration list for PBXProject "JKTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F530C31CA8F21D009D70B2 /* Debug */,
+				A9F530C41CA8F21D009D70B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F530C51CA8F21D009D70B2 /* Build configuration list for PBXNativeTarget "JKTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F530C61CA8F21D009D70B2 /* Debug */,
+				A9F530C71CA8F21D009D70B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F530C81CA8F21D009D70B2 /* Build configuration list for PBXNativeTarget "JKTableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F530C91CA8F21D009D70B2 /* Debug */,
+				A9F530CA1CA8F21D009D70B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F5309B1CA8F21D009D70B2 /* Project object */;
+}
