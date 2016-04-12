@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StrategyReview" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nd8-Zl-bhL" customClass="CustomTextField" customModule="StrategyReview" customModuleProvider="target">
+                                <rect key="frame" x="159" y="138" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="strategy" destination="OLB-54-Foq" id="7Iu-38-NoW"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S9v-DX-vr7" customClass="CustomTextField" customModule="StrategyReview" customModuleProvider="target">
+                                <rect key="frame" x="159" y="215" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="strategy" destination="o8n-9A-Kmc" id="WgH-4F-bmB"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S9v-DX-vr7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="215" id="0jc-pv-KU4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="S9v-DX-vr7" secondAttribute="trailing" constant="248" id="2sg-Ip-KVv"/>
+                            <constraint firstItem="Nd8-Zl-bhL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="5XC-JP-3C8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="S9v-DX-vr7" secondAttribute="bottom" constant="355" id="FYe-Qv-ZjG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Nd8-Zl-bhL" secondAttribute="trailing" constant="258" id="GqO-Dn-6U3"/>
+                            <constraint firstItem="Nd8-Zl-bhL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="205" id="Q3X-XO-Hnb"/>
+                            <constraint firstItem="S9v-DX-vr7" firstAttribute="top" secondItem="Nd8-Zl-bhL" secondAttribute="bottom" constant="51" id="sU8-Bd-jbk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="o8n-9A-Kmc" customClass="AlphaAbstractStrategy" customModule="StrategyReview" customModuleProvider="target"/>
+                <customObject id="OLB-54-Foq" customClass="NumericAbstractStrategy" customModule="StrategyReview" customModuleProvider="target"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

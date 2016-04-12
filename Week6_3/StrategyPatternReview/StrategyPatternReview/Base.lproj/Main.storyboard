@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tga-eM-gZZ" userLabel="numeric" customClass="CustomTextField">
+                                <rect key="frame" x="20" y="124" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.2108690660452624" green="0.82193876499999996" blue="0.31261223701857893" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="5r6-Sc-fst"/>
+                                    <outlet property="strategy" destination="agG-QR-aLt" id="MhV-Zv-ZRc"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eEe-XU-SNa" userLabel="alpha" customClass="CustomTextField">
+                                <rect key="frame" x="20" y="215" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.82193876499999996" green="0.68186645245952082" blue="0.36334540735954024" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="i6a-ID-n4Z"/>
+                                    <outlet property="strategy" destination="SH6-6o-AcC" id="NKk-0F-Bgi"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Tga-eM-gZZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HDB-co-6Rr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eEe-XU-SNa" secondAttribute="trailing" id="T36-kV-nQL"/>
+                            <constraint firstItem="eEe-XU-SNa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Yfi-9c-Dz9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Tga-eM-gZZ" secondAttribute="trailing" id="hCw-ep-ksE"/>
+                            <constraint firstItem="Tga-eM-gZZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="104" id="lZa-3c-QGY"/>
+                            <constraint firstItem="eEe-XU-SNa" firstAttribute="top" secondItem="Tga-eM-gZZ" secondAttribute="bottom" constant="61" id="o09-sc-nsh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eEe-XU-SNa" secondAttribute="bottom" constant="355" id="rbA-Rg-gKB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="SH6-6o-AcC" customClass="AlphaAbstractStragy"/>
+                <customObject id="agG-QR-aLt" customClass="NumericAbstractStragy"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
