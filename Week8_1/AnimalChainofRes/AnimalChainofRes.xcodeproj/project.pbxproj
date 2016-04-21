@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9F0A2801CC71CCD003AF006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A27F1CC71CCD003AF006 /* main.m */; };
+		A9F0A2831CC71CCD003AF006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A2821CC71CCD003AF006 /* AppDelegate.m */; };
+		A9F0A2861CC71CCD003AF006 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A2851CC71CCD003AF006 /* ViewController.m */; };
+		A9F0A2891CC71CCD003AF006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F0A2871CC71CCD003AF006 /* Main.storyboard */; };
+		A9F0A28B1CC71CCE003AF006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F0A28A1CC71CCE003AF006 /* Assets.xcassets */; };
+		A9F0A28E1CC71CCE003AF006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F0A28C1CC71CCE003AF006 /* LaunchScreen.storyboard */; };
+		A9F0A2971CC71CF6003AF006 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A2961CC71CF6003AF006 /* Animal.m */; };
+		A9F0A29A1CC71D7C003AF006 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A2991CC71D7C003AF006 /* Cat.m */; };
+		A9F0A29D1CC71D88003AF006 /* Wolf.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A29C1CC71D88003AF006 /* Wolf.m */; };
+		A9F0A2A01CC71DB5003AF006 /* PetAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A29F1CC71DB5003AF006 /* PetAnimal.m */; };
+		A9F0A2A31CC71DCE003AF006 /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A2A21CC71DCE003AF006 /* Mouse.m */; };
+		A9F0A2A61CC71DDF003AF006 /* Goat.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A2A51CC71DDF003AF006 /* Goat.m */; };
+		A9F0A2A91CC71E6F003AF006 /* Tiger.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A2A81CC71E6F003AF006 /* Tiger.m */; };
+		A9F0A2AE1CC71FA2003AF006 /* WoflCat.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0A2AD1CC71FA2003AF006 /* WoflCat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9F0A27B1CC71CCD003AF006 /* AnimalChainofRes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalChainofRes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F0A27F1CC71CCD003AF006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9F0A2811CC71CCD003AF006 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9F0A2821CC71CCD003AF006 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9F0A2841CC71CCD003AF006 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9F0A2851CC71CCD003AF006 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9F0A2881CC71CCD003AF006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9F0A28A1CC71CCE003AF006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9F0A28D1CC71CCE003AF006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9F0A28F1CC71CCE003AF006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F0A2951CC71CF6003AF006 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		A9F0A2961CC71CF6003AF006 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		A9F0A2981CC71D7C003AF006 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		A9F0A2991CC71D7C003AF006 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		A9F0A29B1CC71D88003AF006 /* Wolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wolf.h; sourceTree = "<group>"; };
+		A9F0A29C1CC71D88003AF006 /* Wolf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wolf.m; sourceTree = "<group>"; };
+		A9F0A29E1CC71DB5003AF006 /* PetAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetAnimal.h; sourceTree = "<group>"; };
+		A9F0A29F1CC71DB5003AF006 /* PetAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetAnimal.m; sourceTree = "<group>"; };
+		A9F0A2A11CC71DCE003AF006 /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
+		A9F0A2A21CC71DCE003AF006 /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
+		A9F0A2A41CC71DDF003AF006 /* Goat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goat.h; sourceTree = "<group>"; };
+		A9F0A2A51CC71DDF003AF006 /* Goat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goat.m; sourceTree = "<group>"; };
+		A9F0A2A71CC71E6F003AF006 /* Tiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tiger.h; sourceTree = "<group>"; };
+		A9F0A2A81CC71E6F003AF006 /* Tiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tiger.m; sourceTree = "<group>"; };
+		A9F0A2AC1CC71FA2003AF006 /* WoflCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoflCat.h; sourceTree = "<group>"; };
+		A9F0A2AD1CC71FA2003AF006 /* WoflCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoflCat.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F0A2781CC71CCD003AF006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9F0A2721CC71CCD003AF006 = {
+			isa = PBXGroup;
+			children = (
+				A9F0A27D1CC71CCD003AF006 /* AnimalChainofRes */,
+				A9F0A27C1CC71CCD003AF006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F0A27C1CC71CCD003AF006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0A27B1CC71CCD003AF006 /* AnimalChainofRes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F0A27D1CC71CCD003AF006 /* AnimalChainofRes */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0A2811CC71CCD003AF006 /* AppDelegate.h */,
+				A9F0A2821CC71CCD003AF006 /* AppDelegate.m */,
+				A9F0A2841CC71CCD003AF006 /* ViewController.h */,
+				A9F0A2851CC71CCD003AF006 /* ViewController.m */,
+				A9F0A2AA1CC71E8D003AF006 /* PetAnimal */,
+				A9F0A2AB1CC71EAA003AF006 /* CatchAnimal */,
+				A9F0A2871CC71CCD003AF006 /* Main.storyboard */,
+				A9F0A28A1CC71CCE003AF006 /* Assets.xcassets */,
+				A9F0A28C1CC71CCE003AF006 /* LaunchScreen.storyboard */,
+				A9F0A28F1CC71CCE003AF006 /* Info.plist */,
+				A9F0A27E1CC71CCD003AF006 /* Supporting Files */,
+			);
+			path = AnimalChainofRes;
+			sourceTree = "<group>";
+		};
+		A9F0A27E1CC71CCD003AF006 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0A27F1CC71CCD003AF006 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9F0A2AA1CC71E8D003AF006 /* PetAnimal */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0A29E1CC71DB5003AF006 /* PetAnimal.h */,
+				A9F0A29F1CC71DB5003AF006 /* PetAnimal.m */,
+				A9F0A2A11CC71DCE003AF006 /* Mouse.h */,
+				A9F0A2A21CC71DCE003AF006 /* Mouse.m */,
+				A9F0A2A41CC71DDF003AF006 /* Goat.h */,
+				A9F0A2A51CC71DDF003AF006 /* Goat.m */,
+				A9F0A2A71CC71E6F003AF006 /* Tiger.h */,
+				A9F0A2A81CC71E6F003AF006 /* Tiger.m */,
+			);
+			name = PetAnimal;
+			sourceTree = "<group>";
+		};
+		A9F0A2AB1CC71EAA003AF006 /* CatchAnimal */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0A2951CC71CF6003AF006 /* Animal.h */,
+				A9F0A2961CC71CF6003AF006 /* Animal.m */,
+				A9F0A2981CC71D7C003AF006 /* Cat.h */,
+				A9F0A2991CC71D7C003AF006 /* Cat.m */,
+				A9F0A29B1CC71D88003AF006 /* Wolf.h */,
+				A9F0A29C1CC71D88003AF006 /* Wolf.m */,
+				A9F0A2AC1CC71FA2003AF006 /* WoflCat.h */,
+				A9F0A2AD1CC71FA2003AF006 /* WoflCat.m */,
+			);
+			name = CatchAnimal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F0A27A1CC71CCD003AF006 /* AnimalChainofRes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F0A2921CC71CCE003AF006 /* Build configuration list for PBXNativeTarget "AnimalChainofRes" */;
+			buildPhases = (
+				A9F0A2771CC71CCD003AF006 /* Sources */,
+				A9F0A2781CC71CCD003AF006 /* Frameworks */,
+				A9F0A2791CC71CCD003AF006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalChainofRes;
+			productName = AnimalChainofRes;
+			productReference = A9F0A27B1CC71CCD003AF006 /* AnimalChainofRes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F0A2731CC71CCD003AF006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					A9F0A27A1CC71CCD003AF006 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A9F0A2761CC71CCD003AF006 /* Build configuration list for PBXProject "AnimalChainofRes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9F0A2721CC71CCD003AF006;
+			productRefGroup = A9F0A27C1CC71CCD003AF006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F0A27A1CC71CCD003AF006 /* AnimalChainofRes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F0A2791CC71CCD003AF006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F0A28E1CC71CCE003AF006 /* LaunchScreen.storyboard in Resources */,
+				A9F0A28B1CC71CCE003AF006 /* Assets.xcassets in Resources */,
+				A9F0A2891CC71CCD003AF006 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F0A2771CC71CCD003AF006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F0A2AE1CC71FA2003AF006 /* WoflCat.m in Sources */,
+				A9F0A2861CC71CCD003AF006 /* ViewController.m in Sources */,
+				A9F0A2A91CC71E6F003AF006 /* Tiger.m in Sources */,
+				A9F0A2971CC71CF6003AF006 /* Animal.m in Sources */,
+				A9F0A2831CC71CCD003AF006 /* AppDelegate.m in Sources */,
+				A9F0A2A31CC71DCE003AF006 /* Mouse.m in Sources */,
+				A9F0A2A61CC71DDF003AF006 /* Goat.m in Sources */,
+				A9F0A29D1CC71D88003AF006 /* Wolf.m in Sources */,
+				A9F0A2801CC71CCD003AF006 /* main.m in Sources */,
+				A9F0A2A01CC71DB5003AF006 /* PetAnimal.m in Sources */,
+				A9F0A29A1CC71D7C003AF006 /* Cat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9F0A2871CC71CCD003AF006 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F0A2881CC71CCD003AF006 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9F0A28C1CC71CCE003AF006 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F0A28D1CC71CCE003AF006 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F0A2901CC71CCE003AF006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F0A2911CC71CCE003AF006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F0A2931CC71CCE003AF006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalChainofRes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universal.jk.AnimalChainofRes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9F0A2941CC71CCE003AF006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalChainofRes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universal.jk.AnimalChainofRes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F0A2761CC71CCD003AF006 /* Build configuration list for PBXProject "AnimalChainofRes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F0A2901CC71CCE003AF006 /* Debug */,
+				A9F0A2911CC71CCE003AF006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F0A2921CC71CCE003AF006 /* Build configuration list for PBXNativeTarget "AnimalChainofRes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F0A2931CC71CCE003AF006 /* Debug */,
+				A9F0A2941CC71CCE003AF006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F0A2731CC71CCD003AF006 /* Project object */;
+}
